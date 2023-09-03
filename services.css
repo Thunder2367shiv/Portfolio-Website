@@ -1,0 +1,36 @@
+*{
+    margin-top: 10px;
+    padding: 0;
+}
+body{
+    background-color: rgb(8, 2, 40);
+    color: white;
+}
+.image {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    padding: 0px 0px;
+    margin: 5px 5px;
+}
+.image a img{
+    width:20vw;
+    height:30vh;
+    border-radius: 15px;
+    border: 5px solid rgb(59, 134, 166);
+    padding: 10px 10px 10px 10px;
+    margin: 10px 20px;
+    background-color: rgb(65, 72, 51);
+    cursor: pointer;
+}
+header{
+    text-align:center;
+    font-size:35px;
+}
+@media only screen and (max-width: 557px) {
+    .image a img{
+        max-height:10vh;
+        max-width:20vw;
+    }
+}

@@ -1,0 +1,44 @@
+*{
+    box-sizing:border-box ;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 15vw;
+    font-size: 17px;
+    padding :8px;
+    color: white;
+    background-color: rgb(6, 3, 30);
+}
+.container{
+    background-color: darkblue;
+    padding: 5pc 20px 15px 10px;
+    border: 1px solid lightgreen;
+    border-radius: 4px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select, textarea{
+    width:100%;
+    padding:12px;
+    border: 1px solid gold;
+    /* to make border curve */
+    border-radius: 5px;
+}
+
+.mainhead{
+    text-align: center;
+}
+#submit{
+    /* to define what would happen when it hover it */
+    cursor:pointer;
+    background-color: aquamarine;
+    border:2px solid black;
+    height:2rem;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
